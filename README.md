@@ -13,7 +13,7 @@ Dic.rs is a simple TUI developed in Rust with [tui-rs](https://github.com/fdehau
 
 `cargo run dicrs`
 
-The application will only run on Linux
+The application will only run on Linux. The application will panic if no dictionaries are available under `dics/`.
 
 ### Dictionaries
 
