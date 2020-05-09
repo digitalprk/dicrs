@@ -11,7 +11,7 @@ Dic.rs is a simple TUI developed in Rust with [tui-rs](https://github.com/fdehau
 
 ### Usage
 
-Clone the repository, create a `dics/` folder and copy [dictionary files](#dictionaries) into it, then run
+Clone the repository, create a `dics/` folder inside of it. Copy [dictionary files](#dictionaries) into the `dics/` folder, then run
 
 `cargo run dicrs`
 
