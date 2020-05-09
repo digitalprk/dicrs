@@ -11,9 +11,11 @@ Dic.rs is a simple TUI developed in Rust with [tui-rs](https://github.com/fdehau
 
 ### Usage
 
+Clone the repository, create a `dics/` folder and copy [dictionary files](#dictionaries) into it, then run
+
 `cargo run dicrs`
 
-The application will only run on Linux. The application will panic if no dictionaries are available under `dics/`.
+The application will only run on GNU/Linux. The application will panic if no dictionaries are available under `dics/`.
 
 ### Dictionaries
 
