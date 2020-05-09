@@ -15,7 +15,6 @@ Dic.rs is a simple TUI developed in Rust with [tui-rs](https://github.com/fdehau
 
 The application will only run on Linux
 
-#dictionaries
 ### Dictionaries
 
 Dictionaries are SQLite database files with the .db extension. Dictionaries contain two tables
