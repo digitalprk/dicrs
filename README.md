@@ -37,15 +37,18 @@ Dictionaries available for the project:
 
 ### Controls
 
-Ctrl + C: close the app
-Ctrl + Y: copy a definition to the clipboard
-Up / Down : Move one word up/down in the index
-PgUp/PgDn : Move ten words up/down in the index
-Left / Right : Move one dictionary up or down
+Shortcut | Action
+-------- | -------
+`Ctrl + C` | Close the app
+`Ctrl + Y` | Copy a definition to the clipboard
+`Up / Down` | Move one word up/down in the index
+`PgUp / PgDn` | Move ten words up/down in the index
+`Left / Right` | Move one dictionary up or down
 
 Mouse control (scrollwheel, click) is available to browse through the index
 
 ### Search
 
-Search is case-insensitive. The SQL wildcard `%` is applied by default at the end of every word searched
+Search is case-insensitive. The SQL wildcard `%` is applied by default at the end of every word searched.
+
 No filtering is applied to the text input, so any SQL wildcard (and injection) can currently be used directly from the dictionary's search box. In case of multiple results, only the first result will be used.
